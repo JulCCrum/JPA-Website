@@ -5,5 +5,8 @@ body {
     background-color: rgba(0, 0, 0, 0.84); /* Semi-transparent black background */
     color: #FFFFFF; /* White text color */
     text-align: center; /* Center text alignment */
-    padding: 20px; /* Padding around the content */
+    padding: 0; /* Padding around the content */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    margin: 0;
+
 }
