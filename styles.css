@@ -9,3 +9,8 @@ body {
     overflow-x: hidden; /* Prevents horizontal scrolling */
     margin: 0;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 18px; /* Larger font size for mobile */
+    }
+}
