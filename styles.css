@@ -1,7 +1,7 @@
 body {
     width: 100%; /* This will ensure the body takes the full width of the viewport */
     height: 100%; /* This will make the body take the full height of the viewport */
-    font-family: 'Roboto Mono', sans-serif; /* Roboto as the primary font, with Arial as a fallback */
+    font-family: 'Roboto', sans-serif; /* Roboto as the primary font, with Arial as a fallback */
     background-color: rgba(0, 0, 0, 0.84); /* Semi-transparent black background */
     color: #FFFFFF; /* White text color */
     text-align: center; /* Center text alignment */
