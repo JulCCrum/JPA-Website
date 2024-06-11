@@ -4,10 +4,8 @@ body {
     font-family: 'Roboto', sans-serif; /* Roboto as the primary font, with Arial as a fallback */
     background-color: rgba(0, 0, 0, 0.84); /* Semi-transparent black background */
     color: #FFFFFF; /* White text color */
-    text-align: center; /* Center text alignment */
     padding: 0; /* Padding around the content */
     overflow-x: hidden; /* Prevents horizontal scrolling */
-    margin: 0;
 }
 @media only screen and (max-width: 600px) {
     body {
