@@ -11,8 +11,9 @@ body {
 }
 @media only screen and (max-width: 600px) {
     .logo {
-        width: 20px;
+        width: 50px;
         margin-top: 20px;
+        position: relative;
         margin-left: 100px;
     }
     body {
