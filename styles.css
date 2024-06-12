@@ -13,6 +13,7 @@ body {
     .logo {
         width: 50px;
         margin-top: 20px;
+        position: static;
         margin-left: 0px;
     }
     body {
@@ -49,6 +50,7 @@ nav {
   .logo {
     width: 50px;
     height: auto;
+    position: absolute;
     top: 20px;
     left: 400px;
     }
