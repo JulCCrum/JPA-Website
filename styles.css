@@ -7,7 +7,6 @@ body {
     text-align: center; /* Center text alignment */
     padding: 0; /* Padding around the content */
     overflow-x: hidden; /* Prevents horizontal scrolling */
-    margin: 0;
 }
 @media only screen and (max-width: 600px) {
     .logo {
@@ -20,42 +19,6 @@ body {
         font-size: 16px; /* Larger font size for mobile */
         overflow-x: hidden;
     }
-    .nav {
-        padding: 10px 0;
-    }
-    .nav-links li {
-        margin: 0 10px;
-    }
-    .nav-links a {
-        font-size: 16px;
-    }
-  }
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #000000; /* Replace with the appropriate hex color code */
-  }
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-
-  .nav-links li {
-    margin-left: 20px;
-  }
-  
-  .nav-links a {
-    color: #FFFFFF; /* Replace with the appropriate hex color code */
-    text-decoration: none;
-    font-size: 18px;
-  }
-  h1 {
-    color: #FFFFFF; /* Replace with the appropriate hex color code */
-    font-size: 48px;
-    text-align: center;
-    margin-top: 100px;
   }
   .logo {
     width: 50px;
