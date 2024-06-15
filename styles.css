@@ -5,7 +5,8 @@ body {
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.84); /* Semi-transparent black background */
     color: #FFFFFF; /* White text color */
-    text-align: left; /* Center text alignment */
+    text-align: left; /* Left text alignment */
+    margin-left: 60px;
     padding: 0; /* Padding around the content */
     overflow-x: hidden; /* Prevents horizontal scrolling */
 }
@@ -14,7 +15,7 @@ body {
   height: auto;
   position: absolute;
   top: 20px;
-  left: 100px;
+  left: 50px;
   }
 
 @media only screen and (max-width: 600px) {
