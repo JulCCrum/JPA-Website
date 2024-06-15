@@ -1,13 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-    width: 100%; /* This will ensure the body takes the full width of the viewport */
-    height: 100%; /* This will make the body take the full height of the viewport */
-    font-family: "Roboto Mono", monospace; /* Roboto as the primary font */
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.84); /* Semi-transparent black background */
-    color: #FFFFFF; /* White text color */
-    text-align: left; /* Left text alignment */
-    margin-left: 200px;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+  background-color: rgba(0, 0, 0, 0.84);
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header {
+  padding: 0 20px;
+  background-color: #1d1f1d;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+#brand a {
+  color: #01a624;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: white;
+}
+
+ul li {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+  .logo {
+    width: 50px;
+    position: static;
+    margin-left: 0px;
+}
+  #hamburger-icon {
+    display: block;
+  }
 }
 .logo {
   width: 70px;
@@ -15,16 +122,4 @@ body {
   position: absolute;
   top: 20px;
   left: 100px;
-  }
-
-@media only screen and (max-width: 600px) {
-    .logo {
-        width: 50px;
-        position: static;
-        margin-left: 0px;
-    }
-    body {
-        font-size: 12px; /* Larger font size for mobile */
-        text-align: left;
-    }
   }
