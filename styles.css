@@ -6,7 +6,7 @@ body {
     background-color: rgba(0, 0, 0, 0.84); /* Semi-transparent black background */
     color: #FFFFFF; /* White text color */
     text-align: left; /* Left text alignment */
-    margin-left: 200px;
+    left: 20px;
     overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 .logo {
@@ -14,7 +14,7 @@ body {
   height: auto;
   position: absolute;
   top: 20px;
-  left: 100px;
+  margin-left: 0px;
   }
 
 @media only screen and (max-width: 600px) {
