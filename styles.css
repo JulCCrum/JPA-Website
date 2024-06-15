@@ -14,10 +14,10 @@ body {
         margin-top: 20px;
         position: static;
         margin-left: 0px;
-        padding-top: 20px;
     }
     body {
         font-size: 12px; /* Larger font size for mobile */
+        padding-top: 20px;
     }
   }
   .logo {
