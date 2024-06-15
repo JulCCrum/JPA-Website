@@ -1,12 +1,13 @@
 @media only screen and (max-width: 600px) {
   .logo {
       width: 50px;
-      position: static;
+      position: sticky; /* Make the navbar move with the page
       margin-left: 0px;
   }
   body {
       font-size: 12px; /* Larger font size for mobile */
       text-align: center;
+      position: sticky; /* Make the navbar move with the page
   }
 }
 body {
