@@ -1,14 +1,3 @@
-@media only screen and (max-width: 600px) {
-  .logo {
-      width: 50px;
-      position: sticky; /* Make the navbar move with the page */
-      margin-left: 0px;
-  }
-  body {
-      font-size: 12px; /* Larger font size for mobile */
-      text-align: center;
-  }
-}
 body {
     width: 100%; /* This will ensure the body takes the full width of the viewport */
     height: 100%; /* This will make the body take the full height of the viewport */
@@ -24,7 +13,19 @@ body {
 .logo {
   width: 70px;
   height: auto;
-  position: sticky;
+  position: absolute;
   top: 20px;
   left: 50px;
+  }
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 50px;
+        position: static;
+        margin-left: 0px;
+    }
+    body {
+        font-size: 12px; /* Larger font size for mobile */
+        text-align: center;
+    }
   }
