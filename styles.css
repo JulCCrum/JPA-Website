@@ -2,12 +2,21 @@ body {
     width: 100%; /* This will ensure the body takes the full width of the viewport */
     height: 100%; /* This will make the body take the full height of the viewport */
     font-family: "Roboto Mono", monospace; /* Roboto as the primary font */
+    font-size: 20px;
     background-color: rgba(0, 0, 0, 0.84); /* Semi-transparent black background */
     color: #FFFFFF; /* White text color */
     text-align: center; /* Center text alignment */
     padding: 0; /* Padding around the content */
     overflow-x: hidden; /* Prevents horizontal scrolling */
 }
+.logo {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 400px;
+  }
+  
 @media only screen and (max-width: 600px) {
     .logo {
         width: 50px;
@@ -18,10 +27,3 @@ body {
         font-size: 12px; /* Larger font size for mobile */
     }
   }
-  .logo {
-    width: 50px;
-    height: auto;
-    position: absolute;
-    top: 20px;
-    left: 400px;
-    }
