@@ -22,7 +22,7 @@ body {
     .logo {
         width: 50px;
         position: static;
-        margin-left: -300px;
+        margin-left: 0px;
     }
     body {
         font-size: 12px; /* Larger font size for mobile */
