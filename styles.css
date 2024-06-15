@@ -12,7 +12,7 @@ body {
     .logo {
         width: 50px;
         position: static;
-        margin-left: -20px;
+        margin-left: -300px;
     }
     body {
         font-size: 12px; /* Larger font size for mobile */
