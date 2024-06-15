@@ -6,8 +6,7 @@ body {
     background-color: rgba(0, 0, 0, 0.84); /* Semi-transparent black background */
     color: #FFFFFF; /* White text color */
     text-align: left; /* Left text alignment */
-    margin-left: 200px;
-    padding: 0; /* Padding around the content */
+    margin-left: 0px;
     overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 .logo {
