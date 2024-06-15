@@ -11,13 +11,11 @@ body {
 @media only screen and (max-width: 600px) {
     .logo {
         width: 50px;
-        margin-top: 20px;
         position: static;
         margin-left: 0px;
     }
     body {
         font-size: 12px; /* Larger font size for mobile */
-        padding-top: 20px;
     }
   }
   .logo {
