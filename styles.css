@@ -110,7 +110,8 @@ ul li:hover {
   .logo {
     width: 30px;
     position: static;
-    left: 150px;
+    left: 220px;
+    top: 10px;
 }
   #hamburger-icon {
     display: block;
@@ -120,6 +121,6 @@ ul li:hover {
   width: 30px;
   height: auto;
   position: absolute;
-  top: 20px;
-  left: 200px;
+  top: 15px;
+  left: 250px;
   }
