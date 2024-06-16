@@ -132,6 +132,7 @@ ul li:hover {
     margin-right: 1000px;
     font-weight: bold; /* Bold text */
     text-align: center; /* Align text to the center */
+    padding-left: 20px;
   }
   
   @media (max-width: 600px) {
