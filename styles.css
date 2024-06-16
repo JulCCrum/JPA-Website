@@ -129,10 +129,10 @@ ul li:hover {
     font-size: 24px; /* Larger font size */
     margin-top: 50px; /* Space from the top */
     margin-left: 20px;
-    margin-right: 400px;
+    margin-right: 500px;
     font-weight: bold; /* Bold text */
     padding-left: 20px; /* Space from the left edge */
-    text-align: center; /* Align text to the left */
+    text-align: center; /* Align text to the center */
   }
   
   @media (max-width: 600px) {
