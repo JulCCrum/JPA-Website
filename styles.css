@@ -126,12 +126,11 @@ ul li:hover {
   }
   #home-intro p {
     color: #01a624; /* Green color */
-    font-size: 34px; /* Larger font size */
+    font-size: 45px; /* Larger font size */
     margin-top: 50px; /* Space from the top */
-    margin-left: 0px;
-    margin-right: 500px;
+    margin-left: 20px;
+    margin-right: 800px;
     font-weight: bold; /* Bold text */
-    padding-left: 20px; /* Space from the left edge */
     text-align: center; /* Align text to the center */
   }
   
@@ -139,6 +138,7 @@ ul li:hover {
     #home-intro p {
       text-align: center; /* Center text on mobile */
       padding: 20px; /* Padding around the text for mobile */
+      font-size: 25; /*font size smaller on the phone */
       margin: 0px;
     }
   }
