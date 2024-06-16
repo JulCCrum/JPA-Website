@@ -108,19 +108,19 @@ ul li:hover {
     display: none;
   }
   .logo {
-    width: 30px;
+    width: 40px;
     position: static;
     left: 220px;
-    top: 10px;
+    top: 5px;
 }
   #hamburger-icon {
     display: block;
   }
 }
 .logo {
-  width: 30px;
+  width: 40px;
   height: auto;
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 230px;
   }
