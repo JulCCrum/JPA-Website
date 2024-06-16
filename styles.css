@@ -124,3 +124,21 @@ ul li:hover {
   top: 5px;
   left: 230px;
   }
+  #home-intro p {
+    color: #01a624; /* Green color */
+    font-size: 24px; /* Larger font size */
+    margin-top: 50px; /* Space from the top */
+    margin-left: 20px;
+    margin-right: 400px;
+    font-weight: bold; /* Bold text */
+    padding-left: 20px; /* Space from the left edge */
+    text-align: center; /* Align text to the left */
+  }
+  
+  @media (max-width: 600px) {
+    #home-intro p {
+      text-align: center; /* Center text on mobile */
+      padding: 20px; /* Padding around the text for mobile */
+      margin: 0px;
+    }
+  }
