@@ -108,7 +108,7 @@ ul li:hover {
     display: none;
   }
   .logo {
-    width: 50px;
+    width: 20px;
     position: static;
     margin-left: 0px;
 }
@@ -117,7 +117,7 @@ ul li:hover {
   }
 }
 .logo {
-  width: 70px;
+  width: 20px;
   height: auto;
   position: absolute;
   top: 20px;
