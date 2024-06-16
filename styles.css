@@ -16,7 +16,7 @@ header a {
 
 header {
   padding: 0 20px;
-  background-color: rgba(0, 0, 0, 0.84);
+  background-color: #1d1f1d;
   height: 50px;
   display: flex;
   justify-content: space-between;
