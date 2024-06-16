@@ -126,9 +126,9 @@ ul li:hover {
   }
   #home-intro p {
     color: #01a624; /* Green color */
-    font-size: 24px; /* Larger font size */
+    font-size: 34px; /* Larger font size */
     margin-top: 50px; /* Space from the top */
-    margin-left: 20px;
+    margin-left: 0px;
     margin-right: 500px;
     font-weight: bold; /* Bold text */
     padding-left: 20px; /* Space from the left edge */
