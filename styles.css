@@ -97,10 +97,14 @@ ul li:hover {
   left: 0;
   height: calc(100vh - 50px);
   width: 100%;
+  padding: 10px 0; /* Optional: Adds some padding inside the dropdown */
+  background-color: #1d1f1d; /* grey background */
+  box-sizing: border-box; /* Handles padding and border correctly */
 }
 
 .mobile-menu li {
   margin-bottom: 10px;
+  border-bottom: 1px solid #cccccc; /* Grey line */
 }
 
 @media only screen and (max-width: 600px) {
