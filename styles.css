@@ -138,6 +138,7 @@ ul li:hover {
     #home-intro p {
       text-align: center; /* Center text on mobile */
       padding: 20px; /* Padding around the text for mobile */
+      font-weight: bold;
       font-size: 25; /*font size smaller on the phone */
       margin: 0px;
     }
