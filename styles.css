@@ -123,27 +123,9 @@ ul li:hover {
     display: block;
   }
 
-  @media (max-width: 600px) {
-    #home-intro-sub p {
-      text-align: center;
-      font-size: 14px;
-      padding: 10px;
-      margin: 10px;
-      margin-top: -20px;
-    }
-  }
-  @media (max-width: 600px) {
-    #home-intro p {
-      text-align: center; /* Center text on mobile */
-      padding: 20px; /* Padding around the text for mobile */
-      font-size: 25; /*font size smaller on the phone */
-      margin: 0px;
-    }
-  }
-}
-
   /* !!!!!!!!!!Phone only above!!!!!!!!!!! */
 
+}
 .logo {
   width: 40px;
   height: auto;
@@ -161,6 +143,14 @@ ul li:hover {
     text-align: center; /* Align text to the center */
     padding-left: 20px;
   }
+  @media (max-width: 600px) {
+    #home-intro p {
+      text-align: center; /* Center text on mobile */
+      padding: 20px; /* Padding around the text for mobile */
+      font-size: 25; /*font size smaller on the phone */
+      margin: 0px;
+    }
+  }
 
   #home-intro-sub p {
     color: white;
@@ -170,4 +160,13 @@ ul li:hover {
     margin-top: 5px;
     padding-left: 20px; /* Space from the left edge */
     text-align: center; /* Align text to the left */
+  }
+  @media (max-width: 600px) {
+    #home-intro-sub p {
+      text-align: center;
+      font-size: 14px;
+      padding: 10px;
+      margin: 10px;
+      margin-top: -20px;
+    }
   }
