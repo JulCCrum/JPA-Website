@@ -55,6 +55,8 @@ ul li:hover {
   transition: 0.3s;
 }
 
+/* !!!!!!!!!!Phone only below!!!!!!!!!!! */
+
 #hamburger-icon {
   margin: auto 0;
   display: none;
@@ -120,6 +122,19 @@ ul li:hover {
   #hamburger-icon {
     display: block;
   }
+  
+  @media (max-width: 600px) {
+    #home-intro-sub p {
+      text-align: center;
+      font-size: 14px;
+      padding: 10px;
+      margin: 10px;
+      margin-top: -20px;
+    }
+  }
+
+  /* !!!!!!!!!!Phone only above!!!!!!!!!!! */
+
 }
 .logo {
   width: 40px;
@@ -155,13 +170,4 @@ ul li:hover {
     margin-top: 5px;
     padding-left: 20px; /* Space from the left edge */
     text-align: center; /* Align text to the left */
-  }
-  @media (max-width: 600px) {
-    #home-intro-sub p {
-      text-align: center;
-      font-size: 14px;
-      padding: 10px;
-      margin: 10px;
-      margin-top: -20px;
-    }
   }
