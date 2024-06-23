@@ -183,3 +183,13 @@ ul li:hover {
   margin-left: 1150px;
   margin-top: -200px;
 }
+
+  /* !!!!!!!!!!Phone only below!!!!!!!!!!! */
+  @media (max-width: 600px) {
+    #app-mockup {
+        display: flex;
+        max-width: 300px;
+        height: auto;
+        margin: auto;
+    }
+}
