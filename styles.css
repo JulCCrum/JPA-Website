@@ -191,6 +191,7 @@ ul li:hover {
         justify-content: center;
         max-width: 300px;
         height: auto;
-        margin: auto;
+        margin-left: 5px;
+        margin-top: 200px;
     }
 }
