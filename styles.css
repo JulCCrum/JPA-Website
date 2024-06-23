@@ -177,7 +177,6 @@ ul li:hover {
 
 /* General styles for the image section */
 #app-mockup img {
-  display: block; /* Ensures the image is treated as a block for margin auto to work */
   width: 100%; /* Makes image responsive */
   max-width: 400px; /* Limits image width on all screens */
   height: auto; /* Maintains aspect ratio */
