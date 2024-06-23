@@ -188,6 +188,7 @@ ul li:hover {
   @media (max-width: 600px) {
     #app-mockup {
         display: flex;
+        justify-content: center;
         max-width: 300px;
         height: auto;
         margin: auto;
