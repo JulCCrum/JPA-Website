@@ -189,7 +189,7 @@ ul li:hover {
     #app-mockup {
         display: flex;
         justify-content: center;
-        max-width: 300px;
+        max-width: 250px;
         height: auto;
         margin-left: -510px;
         margin-top: 210px;
