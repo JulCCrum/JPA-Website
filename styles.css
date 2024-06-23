@@ -181,13 +181,5 @@ ul li:hover {
   width: 100%; /* Makes image responsive */
   max-width: 400px; /* Limits image width on all screens */
   height: auto; /* Maintains aspect ratio */
-}
-
-/* Media query for desktop view, targeting screens larger than 600px */
-@media (min-width: 601px) {
-  #app-mockup {
-      display: flex;
-      justify-content: flex-end; /* Aligns the image to the right */
-      margin-right: 20px; /* Adds some space on the right */
-  }
+  margin-right: 20px;
 }
