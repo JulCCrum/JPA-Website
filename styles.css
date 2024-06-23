@@ -181,8 +181,6 @@ ul li:hover {
   width: 100%; /* Makes image responsive */
   max-width: 400px; /* Limits image width on all screens */
   height: auto; /* Maintains aspect ratio */
-  margin-left: auto; /* Centers the image horizontally */
-  margin-right: auto; /* Centers the image horizontally */
 }
 
 /* Media query for desktop view, targeting screens larger than 600px */
