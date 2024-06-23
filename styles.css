@@ -175,17 +175,21 @@ ul li:hover {
   }
     /* !!!!!!!!!!Phone only above!!!!!!!!!!! */
 
-    #app-mockup img {
-      width: 100%; /* Makes image responsive */
-      max-width: 400px; /* Limits image width on all devices */
-      height: auto; /* Keeps image aspect ratio */
-      margin: 0 auto; /* Centers the image horizontally */
-      margin-right: 2px;
+/* General styles for the image section */
+#app-mockup img {
+  display: block; /* Ensures the image is treated as a block for margin auto to work */
+  width: 100%; /* Makes image responsive */
+  max-width: 400px; /* Limits image width on all screens */
+  height: auto; /* Maintains aspect ratio */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+}
+
+/* Media query for desktop view, targeting screens larger than 600px */
+@media (min-width: 601px) {
+  #app-mockup {
+      display: flex;
+      justify-content: flex-end; /* Aligns the image to the right */
+      margin-right: 20px; /* Adds some space on the right */
   }
-  
-  @media (min-width: 601px) {
-      #app-mockup {
-          display: flex;
-          justify-content: flex-end; /* Aligns the image to the right */
-      }
-    }
+}
