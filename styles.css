@@ -181,5 +181,5 @@ ul li:hover {
   width: 100%; /* Makes image responsive */
   max-width: 400px; /* Limits image width on all screens */
   height: auto; /* Maintains aspect ratio */
-  margin-left: 1500px;
+  margin-left: 1200px;
 }
