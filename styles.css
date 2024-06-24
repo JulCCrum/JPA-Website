@@ -195,3 +195,26 @@ ul li:hover {
         margin-top: 210px;
     }
 }
+   /* !!!!!!!!!!Phone only above!!!!!!!!!!! */
+
+/* General styles for the features section */
+#features-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8; /* Light gray background for visibility */
+}
+
+/* Desktop styles */
+@media (min-width: 601px) {
+  #features-section .features-content {
+    max-width: 800px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the content */
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  #features-section .features-content {
+    padding: 10px;
+  }
+}
