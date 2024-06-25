@@ -199,21 +199,13 @@ ul li:hover {
 
 /* General styles for the features section */
 #features-section {
-  text-align: left;
-  padding: 20px;
+  margin-top: 20px; /* Adjusts spacing */
+  text-align: left; /* Aligns text to the left */
 }
 
-/* Desktop styles */
-@media (min-width: 601px) {
-  #features-section .features-content {
-    max-width: 800px; /* Adjust width as needed */
-    margin: 0 auto; /* Center the content */
-  }
-}
-
-/* Mobile styles */
 @media (max-width: 600px) {
-  #features-section .features-content {
-    padding: 10px;
+  #features-section {
+      text-align: center; /* Centers text on small screens */
+      padding: 20px; /* Adds padding */
   }
 }
