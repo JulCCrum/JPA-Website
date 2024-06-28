@@ -203,6 +203,12 @@ ul li:hover {
   text-align: left; /* Aligns text to the left */
 }
 
+#features-section ul {
+  display: block; /* Ensures that the list is vertical */
+  list-style-type: disc; /* Adds bullet points, or choose none if you don't want any */
+  padding-left: 20px; /* Gives some space for bullet points */
+}
+
 @media (max-width: 600px) {
   #features-section {
       text-align: center; /* Centers text on small screens */
