@@ -197,10 +197,25 @@ nav ul li:hover, .mobile-menu li:hover {
 }
    /* !!!!!!!!!!Phone only above!!!!!!!!!!! */
 
-#features-section, #how-it-works ul {
-  margin-top: 40px; /* Adjusts spacing */
-  text-align: left; /* Aligns text to the left */
-  display: block; /* Ensures that the list is vertical */
-  list-style-type: disc; /* Adds bullet points, or choose none if you don't want any */
-  padding-left: 100px; /* Gives some space for bullet points */
+/* Target only lists within specific sections */
+#features-section ul, #how-it-works ul {
+  list-style-type: disc; /* Or none if you don't want bullets */
+  padding-left: 100px; /* Adjust as needed for alignment */
+  margin-top: 40px; /* Space above the list */
+  text-align: left; /* Align text to the left */
+  display: block; /* Ensure list is treated as block for formatting */
+}
+
+/* You may also want to add specific styles for list items if necessary */
+#features-section li, #how-it-works li {
+  padding: 5px 0; /* Adds padding above and below each list item */
+  margin-left: 0; /* Ensures no additional left margin */
+}
+
+/* Ensure that other list styles do not affect these sections */
+ul:not(#features-section ul):not(#how-it-works ul) {
+  /* Reset or apply different styles for other lists */
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none; /* Example: No bullets */
 }
