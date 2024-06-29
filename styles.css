@@ -223,6 +223,7 @@ ul:not(#features-section ul):not(#how-it-works ul) {
   margin-top: 40px;
   padding-top: 0; /* Adjust this value to align with the bullet points */
   padding-left: 100px; /* Matches the padding-left of the ul to align text */
+  text-align: center;
 }
 
 #features-section {
