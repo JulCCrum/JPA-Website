@@ -212,6 +212,6 @@ ul li:hover {
 @media (max-width: 600px) {
   #features-section {
       text-align: center; /* Centers text on small screens */
-      padding: 20px; /* Adds padding */
+      padding: 0px; /* Adds padding */
   }
 }
