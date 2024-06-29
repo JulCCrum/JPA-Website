@@ -229,5 +229,5 @@ ul:not(#features-section ul):not(#how-it-works ul) {
 }
 
 #how-it-works {
-  margin-top: 20px; /* Also adjustable to fine-tune the spacing */
+  margin-top: -200px; /* Also adjustable to fine-tune the spacing */
 }
