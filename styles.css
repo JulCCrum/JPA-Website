@@ -197,13 +197,9 @@ ul li:hover {
 }
    /* !!!!!!!!!!Phone only above!!!!!!!!!!! */
 
-/* General styles for the features section */
-#features-section {
-  margin-top: 0px; /* Adjusts spacing */
-  text-align: left; /* Aligns text to the left */
-}
-
 #features-section, #how-it-works ul {
+  margin-top: 20px; /* Adjusts spacing */
+  text-align: left; /* Aligns text to the left */
   display: grid; /* Ensures that the list is vertical */
   list-style-type: disc; /* Adds bullet points, or choose none if you don't want any */
   padding-left: 20px; /* Gives some space for bullet points */
