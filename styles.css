@@ -225,6 +225,16 @@ ul:not(#features-section ul):not(#how-it-works ul) {
   padding-left: 100px; /* Matches the padding-left of the ul to align text */
 }
 
+#features-section {
+  margin-left: 50px;
+}
+@media (max-width:600) {
+  #features-section {
+    margin-left: -40px;
+    text-align: center;
+  }
+}
+
 #how-it-works {
   margin-top: -800px; /* Also adjustable to fine-tune the spacing */
 }
@@ -234,3 +244,4 @@ ul:not(#features-section ul):not(#how-it-works ul) {
     margin-left: -40px;
   }
 }
+
