@@ -224,3 +224,10 @@ ul:not(#features-section ul):not(#how-it-works ul) {
   padding-top: 0; /* Adjust this value to align with the bullet points */
   padding-left: 100px; /* Matches the padding-left of the ul to align text */
 }
+#features-section {
+  margin-bottom: 20px; /* Reduce this value as needed to decrease the gap */
+}
+
+#how-it-works {
+  margin-top: 20px; /* Also adjustable to fine-tune the spacing */
+}
