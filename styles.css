@@ -204,7 +204,7 @@ ul li:hover {
 }
 
 #features-section, #how-it-works ul {
-  display: block; /* Ensures that the list is vertical */
+  display: grid; /* Ensures that the list is vertical */
   list-style-type: disc; /* Adds bullet points, or choose none if you don't want any */
   padding-left: 20px; /* Gives some space for bullet points */
 }
