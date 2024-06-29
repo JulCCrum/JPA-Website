@@ -201,7 +201,7 @@ nav ul li:hover, .mobile-menu li:hover {
 #features-section ul, #how-it-works ul {
   list-style-type: disc; /* Or none if you don't want bullets */
   padding-left: 100px; /* Adjust as needed for alignment */
-  margin-top: 40px; /* Space above the list */
+  margin-top: 20px; /* Space above the list */
   text-align: left; /* Align text to the left */
   display: block; /* Ensure list is treated as block for formatting */
 }
