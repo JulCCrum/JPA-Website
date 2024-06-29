@@ -50,7 +50,7 @@ ul li {
   margin-left: 10px;
 }
 
-ul li:hover {
+nav ul li:hover, .mobile-menu li:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
