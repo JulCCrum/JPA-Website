@@ -228,3 +228,8 @@ ul:not(#features-section ul):not(#how-it-works ul) {
 #how-it-works {
   margin-top: -800px; /* Also adjustable to fine-tune the spacing */
 }
+@media (max-width: 600px) {
+  #how-it-works {
+    margin-top: -400px;
+  }
+}
