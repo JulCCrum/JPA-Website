@@ -198,9 +198,12 @@ ul li:hover {
    /* !!!!!!!!!!Phone only above!!!!!!!!!!! */
 
 #features-section, #how-it-works ul {
-  margin-top: 20px; /* Adjusts spacing */
+  margin-top: 40px; /* Adjusts spacing */
   text-align: left; /* Aligns text to the left */
   display: block; /* Ensures that the list is vertical */
   list-style-type: disc; /* Adds bullet points, or choose none if you don't want any */
   padding-left: 100px; /* Gives some space for bullet points */
+}
+#how-it-works-section {
+  margin-left: 100px; /* Aligns 'How it works' with the other text */
 }
