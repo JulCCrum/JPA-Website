@@ -200,14 +200,7 @@ ul li:hover {
 #features-section, #how-it-works ul {
   margin-top: 20px; /* Adjusts spacing */
   text-align: left; /* Aligns text to the left */
-  display: none; /* Ensures that the list is vertical */
+  display: block; /* Ensures that the list is vertical */
   list-style-type: disc; /* Adds bullet points, or choose none if you don't want any */
   padding-left: 20px; /* Gives some space for bullet points */
-}
-
-@media (max-width: 600px) {
-  #features-section {
-      text-align: center; /* Centers text on small screens */
-      padding: 0px; /* Adds padding */
-  }
 }
