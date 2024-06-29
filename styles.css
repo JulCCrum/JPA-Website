@@ -205,5 +205,7 @@ ul li:hover {
   padding-left: 100px; /* Gives some space for bullet points */
 }
 #how-it-works-section {
+  margin-top: 60px;
+  padding-left: 0px;
   margin-left: 100px; /* Aligns 'How it works' with the other text */
 }
