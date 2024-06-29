@@ -230,7 +230,7 @@ ul:not(#features-section ul):not(#how-it-works ul) {
 }
 @media (max-width:600) {
   #features-section {
-    margin-left: -100px;
+    margin-left: -200px;
   }
 }
 
