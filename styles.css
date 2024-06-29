@@ -220,14 +220,11 @@ ul:not(#features-section ul):not(#how-it-works ul) {
   list-style-type: none; /* Example: No bullets */
 }
 #features-section h2, #how-it-works h2 {
-  margin-top: 40p;
+  margin-top: 40px;
   padding-top: 0; /* Adjust this value to align with the bullet points */
   padding-left: 100px; /* Matches the padding-left of the ul to align text */
 }
-#features-section {
-  margin-bottom: 20px; /* Reduce this value as needed to decrease the gap */
-}
 
 #how-it-works {
-  margin-top: -200px; /* Also adjustable to fine-tune the spacing */
+  margin-top: -800px; /* Also adjustable to fine-tune the spacing */
 }
