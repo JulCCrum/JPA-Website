@@ -197,7 +197,6 @@ nav ul li:hover, .mobile-menu li:hover {
 }
    /* !!!!!!!!!!Phone only above!!!!!!!!!!! */
 
-/* Target only lists within specific sections */
 #features-section ul, #how-it-works ul {
   list-style-type: disc; /* Or none if you don't want bullets */
   padding-left: 100px; /* Adjust as needed for alignment */
@@ -230,7 +229,7 @@ ul:not(#features-section ul):not(#how-it-works ul) {
 }
 @media (max-width:600) {
   #features-section ul{
-    margin-left: -200px;
+    margin-left: 100px;
   }
 }
 
