@@ -235,7 +235,7 @@ ul:not(#features-section ul):not(#how-it-works ul) {
 }
 @media (max-width: 600px) {
   #features-section ul{
-    margin-left: -75px;
+    margin-left: -70px;
     text-align: center;
   }
 }
