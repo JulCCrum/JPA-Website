@@ -233,12 +233,6 @@ ul:not(#features-section ul):not(#how-it-works ul) {
     text-align: center;
   }
 }
-@media (max-width: 600px) {
-  #features-section ul{
-    margin-left: -70px;
-    text-align: center;
-  }
-}
 
 #how-it-works {
   margin-top: -800px; /* Also adjustable to fine-tune the spacing */
