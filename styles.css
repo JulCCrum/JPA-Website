@@ -218,10 +218,16 @@ ul:not(#features-section ul):not(#how-it-works ul) {
   margin-left: 0;
   list-style-type: circle; /* Example: No bullets */
 }
-#features-section h2, #how-it-works h2 {
+#features-section h2 {
   margin-top: 40px;
   padding-top: 0; /* Adjust this value to align with the bullet points */
-  padding-left: 100px; /* Matches the padding-left of the ul to align text */
+  padding-left: 40px; /* Matches the padding-left of the ul to align text */
+}
+
+#how-it-works h2 {
+  margin-top: 40px;
+  padding-top: 0; /* Adjust this value to align with the bullet points */
+  padding-left: 140px; /* Matches the padding-left of the ul to align text */
 }
 
 #features-section {
@@ -229,14 +235,14 @@ ul:not(#features-section ul):not(#how-it-works ul) {
 }
 @media (max-width: 600px) {
   #features-section {
-    margin-left: 0px;
+    margin-left: -20px;
     text-align: center;
     font-size: 14px;
   }
 }
 @media (max-width: 600px) {
   #features-section ul{
-    margin-left: 0px;
+    margin-left: -20px;
     text-align: center;
   }
 }
