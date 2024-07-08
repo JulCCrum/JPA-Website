@@ -217,6 +217,13 @@ ul:not(#features-section ul):not(#how-it-works ul) {
   padding-top: 0; /* Adjust this value to align with the bullet points */
   padding-left: 40px; /* Matches the padding-left of the ul to align text */
 }
+@media (max-width: 600px) {
+  #features-section h2{
+  margin-top: 40px;
+  padding-top: 0; /* Adjust this value to align with the bullet points */
+  padding-left: 45px; /* Matches the padding-left of the ul to align text */
+}
+}
 
 #how-it-works h2 {
   margin-top: 40px;
@@ -227,7 +234,7 @@ ul:not(#features-section ul):not(#how-it-works ul) {
   #how-it-works h2{
   margin-top: 40px;
   padding-top: 0; /* Adjust this value to align with the bullet points */
-  padding-left: 100px; /* Matches the padding-left of the ul to align text */
+  padding-left: 110px; /* Matches the padding-left of the ul to align text */
 }
 }
 
