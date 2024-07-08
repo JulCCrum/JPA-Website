@@ -250,6 +250,7 @@ ul:not(#features-section ul):not(#how-it-works ul) {
     margin-top: -500px;
     margin-left: -60px;
     text-align: center;
+    font-size: 14px;
   }
 }
 @media (max-width: 600px) {
