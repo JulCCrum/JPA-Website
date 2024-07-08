@@ -223,6 +223,13 @@ ul:not(#features-section ul):not(#how-it-works ul) {
   padding-top: 0; /* Adjust this value to align with the bullet points */
   padding-left: 140px; /* Matches the padding-left of the ul to align text */
 }
+@media (max-width: 600px) {
+  #how-it-works h2{
+  margin-top: 40px;
+  padding-top: 0; /* Adjust this value to align with the bullet points */
+  padding-left: 100px; /* Matches the padding-left of the ul to align text */
+}
+}
 
 #features-section {
   margin-left: 0px;
