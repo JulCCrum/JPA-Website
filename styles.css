@@ -216,7 +216,7 @@ ul:not(#features-section ul):not(#how-it-works ul) {
   /* Reset or apply different styles for other lists */
   padding-left: 0;
   margin-left: 0;
-  list-style-type: circle; /* Example: No bullets */
+  list-style-type: none; /* Example: No bullets */
 }
 #features-section h2 {
   margin-top: 40px;
