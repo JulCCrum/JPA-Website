@@ -248,7 +248,13 @@ ul:not(#features-section ul):not(#how-it-works ul) {
 @media (max-width: 600px) {
   #how-it-works {
     margin-top: -500px;
-    margin-left: -40px;
+    margin-left: -60px;
+    text-align: center;
   }
 }
-
+@media (max-width: 600px) {
+  #how-it-works ul{
+    margin-left: -60px;
+    text-align: center;
+  }
+}
