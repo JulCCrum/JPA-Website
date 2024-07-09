@@ -227,13 +227,13 @@ nav ul li:hover, .mobile-menu li:hover {
   #how-it-works h2{
   margin-top: 40px;
   padding-top: 0; /* Adjust this value to align with the bullet points */
-  padding-left: 110px; /* Matches the padding-left of the ul to align text */
+  padding-left: 200px; /* Matches the padding-left of the ul to align text */
 }
 }
 
 @media (min-width: 600px){
 #features-section {
-  margin-left: 100px;
+  margin-left: 150px;
   margin-right: 1000px;
   padding-left: 20px;
 }
