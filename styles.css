@@ -238,6 +238,7 @@ nav ul li:hover, .mobile-menu li:hover {
   margin-left: 150px;
   margin-right: 1000px;
   padding-left: 20px;
+  font-size: 18px;
 }
 }
 @media (max-width: 600px) {
