@@ -208,7 +208,7 @@ nav ul li:hover, .mobile-menu li:hover {
 #features-section h2 {
   margin-top: -420px;
   padding-top: 0; /* Adjust this value to align with the bullet points */
-  padding-left: 250px; /* Matches the padding-left of the ul to align text */
+  padding-left: 200px; /* Matches the padding-left of the ul to align text */
 }
 @media (max-width: 600px) {
   #features-section h2{
@@ -218,10 +218,12 @@ nav ul li:hover, .mobile-menu li:hover {
 }
 }
 
+@media (min-width: 600px) {
 #how-it-works h2 {
   margin-top: 40px;
   padding-top: 0; /* Adjust this value to align with the bullet points */
-  padding-left: 140px; /* Matches the padding-left of the ul to align text */
+  padding-left: 165px; /* Matches the padding-left of the ul to align text */
+}
 }
 @media (max-width: 600px) {
   #how-it-works h2{
@@ -255,7 +257,7 @@ nav ul li:hover, .mobile-menu li:hover {
 @media (min-width: 600px){
 #how-it-works {
   margin-top: -800px; /* Also adjustable to fine-tune the spacing */
-  margin-left: 100px;
+  margin-left: 150px;
   margin-right: 1000px;
   padding-left: 20px;
 }
