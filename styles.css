@@ -251,7 +251,7 @@ nav ul li:hover, .mobile-menu li:hover {
 @media (max-width: 600px) {
   #features-section ul{
     margin-left: -30px;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -275,6 +275,6 @@ nav ul li:hover, .mobile-menu li:hover {
 @media (max-width: 600px) {
   #how-it-works ul{
     margin-left: 0px;
-    text-align: center;
+    text-align: left;
   }
 }
