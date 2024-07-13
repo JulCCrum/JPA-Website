@@ -206,7 +206,7 @@ nav ul li:hover, .mobile-menu li:hover {
 }
 
 #features-section h2 {
-  margin-top: -420px;
+  margin-top: -480px;
   padding-top: 0; /* Adjust this value to align with the bullet points */
   padding-left: 200px; /* Matches the padding-left of the ul to align text */
 }
