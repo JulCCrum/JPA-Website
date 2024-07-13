@@ -282,9 +282,10 @@ nav ul li:hover, .mobile-menu li:hover {
 .waitlist-button {
   display: flex;
   justify-content: center;
-  padding: 10px 20px;
-  margin: 10px 0;
-  background-color: green;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #01a624;
   color: white;
   text-align: center;
   text-decoration: none; /* Removes underline from links */
