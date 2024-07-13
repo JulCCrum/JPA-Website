@@ -296,5 +296,5 @@ nav ul li:hover, .mobile-menu li:hover {
 .waitlist-container {
   display: flex;
   justify-content: center;
-  margin-top: -550px; /* Adjust this value to move the button up or down */
+  margin-top: -650px; /* Adjust this value to move the button up or down */
 }
