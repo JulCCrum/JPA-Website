@@ -280,7 +280,8 @@ nav ul li:hover, .mobile-menu li:hover {
 }
 
 .waitlist-button {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   padding: 10px 20px;
   margin: 10px 0;
   background-color: green;
@@ -292,5 +293,5 @@ nav ul li:hover, .mobile-menu li:hover {
 }
 
 .waitlist-button:hover {
-  background-color: #045D05; /* Slightly darker green on hover */
+  background-color: #01a624; /* Slightly darker green on hover */
 }
