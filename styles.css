@@ -329,3 +329,19 @@ footer {
 .social-icon:hover svg {
   fill: #01a624; /* Hover color, matching your green */
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-bottom: 70px; /* Adjust this value based on your footer height */
+}
+@media (max-width: 600px) {
+  .social-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
