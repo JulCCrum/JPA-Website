@@ -278,3 +278,19 @@ nav ul li:hover, .mobile-menu li:hover {
     text-align: left;
   }
 }
+
+.waitlist-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: green;
+  color: white;
+  text-align: center;
+  text-decoration: none; /* Removes underline from links */
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.waitlist-button:hover {
+  background-color: #045D05; /* Slightly darker green on hover */
+}
