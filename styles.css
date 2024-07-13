@@ -281,7 +281,7 @@ nav ul li:hover, .mobile-menu li:hover {
 
 .waitlist-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px 20px;
   margin: 20px 0;
   background-color: #01a624;
   color: white;
@@ -296,5 +296,5 @@ nav ul li:hover, .mobile-menu li:hover {
 .waitlist-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px; /* Adjust this value to move the button up or down */
+  margin-top: -550px; /* Adjust this value to move the button up or down */
 }
