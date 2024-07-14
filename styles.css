@@ -273,7 +273,7 @@ nav ul li:hover, .mobile-menu li:hover {
 @media (min-width: 600px){
 #how-it-works {
   margin-top: 50px; /* Also adjustable to fine-tune the spacing */
-  margin-left: 150px;
+  margin-left: -250px;
   margin-right: 1000px;
   padding-left: 20px;
   font-size: 18px;
@@ -281,7 +281,7 @@ nav ul li:hover, .mobile-menu li:hover {
 }
 @media (max-width: 600px) {
   #how-it-works {
-    margin-top: -500px;
+    margin-top: 0px;
     margin-left: -60px;
     text-align: center;
     font-size: 14px;
