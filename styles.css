@@ -391,11 +391,13 @@ footer {
 .about-section h2 {
   color: #01a624;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 #contact-info {
   text-align: center;
   margin-top: 40px;
+  color:#01a624
 }
 
 #contact-info p {
