@@ -272,7 +272,7 @@ nav ul li:hover, .mobile-menu li:hover {
 
 @media (min-width: 600px){
 #how-it-works {
-  margin-top: -800px; /* Also adjustable to fine-tune the spacing */
+  margin-top: 50px; /* Also adjustable to fine-tune the spacing */
   margin-left: 150px;
   margin-right: 1000px;
   padding-left: 20px;
