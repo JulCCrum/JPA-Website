@@ -431,3 +431,38 @@ footer {
   margin-bottom: 20px;
   line-height: 1.6;
 }
+
+/* Override all default ul styles for privacy policy */
+#privacy-content > ul {
+  list-style-type: disc !important;
+  display: block;
+  height: auto;
+  align-items: start;
+  padding-left: 40px;
+  margin-top: 10px;
+}
+#privacy-content > ul > li {
+  display: list-item !important;  /* This is crucial for bullets */
+  margin-bottom: 10px;
+  text-align: left;
+}
+#privacy-content ol {
+  margin-left: 20px;  /* Reduce the left margin */
+  padding-left: 20px; /* Add some padding from the left */
+  display: block;
+  list-style-type: decimal; /* Keeps the numbers */
+}
+
+#privacy-content ol li {
+  margin-bottom: 10px;
+  display: list-item;
+  text-align: left;
+}
+
+/* For mobile screens */
+@media (max-width: 600px) {
+  #privacy-content ol {
+      margin-left: 10px;  /* Even smaller margin for mobile */
+      padding-left: 15px;
+  }
+}
